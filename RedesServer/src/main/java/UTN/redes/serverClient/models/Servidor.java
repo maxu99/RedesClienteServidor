@@ -39,6 +39,10 @@ public class Servidor extends Connect {
             {
                 //Se muestra por pantalla el mensaje recibido
 
+
+
+                //ESTA PORCION DE CODIGO COMENTADO PERMITE QUE TELNET SE COMUNIQUE CON INTELLIJ
+                // ES DECIR DE TELNET A CONSOLA SERVER
                    /* mensajeServidor= entradita.readLine();
                     if(mensajeServidor.equals("x")){
                         cs.close();
@@ -50,6 +54,7 @@ public class Servidor extends Connect {
 
 
                     // ESTE HAY QUE DESCOMENTAR PARA QUE LEA CLIENTE A SERVER POR INTELLIJ
+                        // ES DECIR DE CONSOLA A CONSOLA
                     st = (String) bufferDeEntrada.readUTF();
                     if(st.equals("x")){
                         cs.close();

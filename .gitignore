@@ -3,8 +3,6 @@
 ##########################
 *.class
 .mtj.tmp/
-*.jar
-*.war
 *.ear
 hs_err_pid*
 
@@ -25,7 +23,6 @@ release.properties
 .idea/
 *.ipr
 *.iws
-out/
 .idea_modules/
 
 ##########################
